@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BeastSpawners">
+    <output-path>$USER_HOME$/Desktop/McServers/spigot 1.8/plugins</output-path>
+    <root id="archive" name="BeastSpawners.jar">
+      <element id="module-output" name="BeastSpawners" />
+    </root>
+  </artifact>
+</component>

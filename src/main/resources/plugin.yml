@@ -1,0 +1,25 @@
+name: BeastSpawners
+version: 2.4
+description: This plugin allow you te level up access to spawners!
+main: me.MrAxe.BeastSpawners.BeastSpawners
+author: MrAxe
+softdepend: [MVdWPlaceholderAPI,PlaceholderAPI,DeluxeChat,ASkyBlock,SuperiorSkyblock2]
+api-version: 1.13
+commands:
+  BeastSpawners:
+    aliases: [bs,beastspawner,bspawner,beasts,bspawners]
+    description: Staff command.
+  LevelUp:
+    aliases: [levelmeup]
+    description: Main plugin command.
+  Level:
+    aliases: [lv]
+  Levels:
+    aliases: [lvs]
+permissions:
+  BeastSpawnerLevelUp.blevel:
+    default: op
+  BeastSpawnerLevelUp.adminhelp:
+    default: op
+  BeastSpawnerLevelUp.reload:
+    default: op

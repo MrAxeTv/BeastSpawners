@@ -1,0 +1,48 @@
+Prefix: "&7[&4&lBeast&b&lSpawners&7] &6"
+Levels:
+ SpawnerLevels:
+  - "&b&lSpawner Levels:"
+  - "Different types of spawners can be unlocked based"
+  - " on your level.You need EXP to level up.Once you level up"
+  - "you will have access to certain spawner types."
+  - ""
+ LevelsList: "&7Level %lv% : &a%cost% EXP &7| &a$%moneycost% &b%type%" 
+ UpgradeSpawner: "Upgrade Spawner Levels with &b/levelup &f- Check EXP with &b/xp"
+LevelUp:
+ LastLevel: "&bYou have reach last level!"
+ XpNeeded: "&7You need &a%cost% &7exp to rankup to &aLevel %lv%."
+ MoneyNeeded: "&7You need &a$%cost% &7to rankup to &aLevel %lv%."
+ NewLevel: "&7You are now &aLevel %lv%."
+ Kills:
+  NeedKills: "&7You still need to kill:"
+  MobList: "&6%mob%: &b%pkills%/%kills%"
+ Hooks:
+  SkyBlockNoIsland: "&7To use this command you first need to make your island or join one!"
+Level:
+ NextLevelCost: "&7You need &6%cost% &7exp & &6$%moneycost% &7to reach level &6%lv%&7."
+ CurrentLv: "&7Your current level is &6%lv% &7(&6%xp% XP&7)"
+Events:
+ Mining:
+  LowLevel: "You are to low level to mine this spawner!"
+  MinedSpawner: "&7You have mined &6%mob% &7spawner!"
+  NoPermission: "&cYou don't have permission to mine this spawner!"
+ Placing:
+  LowLevel: "&7You can't place that spawner plsease use &6/levelup."
+  PlacedSpawner: "&7You have placed &6%mob% &7spawner!"
+  NoPermission: "&cYou don't have permission to place this spawner!"
+ RequiredLv: "&7You need to have a spawner level &a%lv% &7to kill this mob."
+NoPermission: "&cSorry but u don't have permission for that command."
+Staff:
+ Help:
+  - "&6&m==============[&f &2&LBeast&b&lSpawners &6&m]============="
+  - "&b/BeastSpawners help &6: &7Help page!"
+  - "&b/BeastSpawners reload &6: &7Reload plugin!"
+  - "&b/BeastSpawners level <player> <level> &6: &7Set player level!"
+  - "&b/BeastSpawners give <player> <spawner> <amount> &6: &7Give spawner to player!"
+  - "&6&m============================================"
+ LevelCmd: "&7/bspawners <player> <level>."
+ PlayerLevel: "&7%player% is level &6%lv%&7."
+ NewLevel: "&7You have setup &6%player% &7level to &6%lv%&7!"
+ WrongLevel: "&cYou can't place palyer in that rank!"
+ NotNumber: "&cLook's like you didn't type a number!"
+ConfigVersion: 1.1

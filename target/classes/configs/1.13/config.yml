@@ -1,0 +1,48 @@
+## Configuration for BeastSpawners by MrAxeTv.
+## Plugin use intended for MC 1.7 - 1.15+.
+## Configuration options.
+## Discord Help https://discord.gg/MTYyhba
+Options:
+# Enable option to charge players money and exp.
+ ChargeMoney: true
+ Hooks:
+  ASkyBlockTeamLevel: false
+  SSkyBlockTeamLevel: false
+ SpawnerDrops:
+  Enabled: true
+  # Need SilkTouch enchant to mind spawners
+  SilkTouch: true
+  # Drop mined spawners to floor
+  ToFloor: true
+GUI:
+ Enabled: true
+ Title: "&2Spawners&7Lv: %plv%/Exp: %pxp%"
+ Size: 27
+ UnlockedLevel:
+   Name: "&2Level: %lv%&f(Unlocked)"
+   Item: CHEST_MINECART
+   LoreColor: "&a"
+   Glow: true
+   Data: 0
+   Lore:
+    - "&a&lUnlocked"
+ LockedLevel:
+   Name: "&cLevel: %lv%&f(Locked)"
+   Item: MINECART
+   LoreColor: "&c"
+   Glow: false
+   Data: 0
+   Lore:
+     - "&fCost:"
+     - "&fExp: &c%exp%"
+     - "&fCost: &c$%money%"
+     - "%kills%"
+     - "&c&lLocked"
+   ## Here you can set message which will be header for amount of mobs which player need to kill for next level!
+   ## It will replace %kills% placeholder.
+   KillsLore: "&bNeed to kill:"
+SpawnerItem:
+ Name: "&6%mob% Spawner"
+ Lore:
+  - "&eRight-Click"
+ConfigVersion: 1.0

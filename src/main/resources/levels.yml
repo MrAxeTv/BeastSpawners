@@ -1,0 +1,126 @@
+Levels:
+  1:
+    Exp: 0
+    Money: 0
+    Mobs:
+      - "PIG"
+  2:
+    Exp: 2500
+    Money: 25000
+    Mobs:
+      - "SHEEP"
+  3:
+    Exp: 5000
+    Money: 50000
+    Mobs:
+      - "COW"
+  4:
+    Exp: 7500
+    Money: 75000
+    Mobs:
+      - "CHICKEN"
+  5:
+    Exp: 10000
+    Money: 100000
+    Mobs:
+      - "RABBIT"
+  6:
+    Exp: 12500
+    Money: 125000
+    Mobs:
+      - "MUSHROOM_COW"
+  7:
+    Exp: 15000
+    Money: 150000
+    Mobs:
+      - "HORSE"
+  8:
+    Exp: 17500
+    Money: 175000
+    Mobs:
+      - "ZOMBIE"
+  9:
+    Exp: 20000
+    Money: 200000
+    Mobs:
+      - "SKELETON"
+  10:
+    Exp: 25000
+    Money: 250000
+    Mobs:
+      - "SPIDER"
+  11:
+    Exp: 30000
+    Money: 300000
+    Mobs:
+      - "CAVE_SPIDER"
+  12:
+    Exp: 35000
+    Money: 350000
+    Mobs:
+      - "WOLF"
+  13:
+    Exp: 40000
+    Money: 400000
+    Mobs:
+      - "OCELOT"
+  14:
+    Exp: 45000
+    Money: 450000
+  15:
+    Exp: 50000
+    Money: 500000
+    Mobs:
+      - "WITCH"
+  16:
+    Exp: 60000
+    Money: 600000
+    Mobs:
+      - "PIG_ZOMBIE"
+  17:
+    Exp: 70000
+    Money: 700000
+    Mobs:
+      - "ENDERMAN"
+  18:
+    Exp: 80000
+    Money: 800000
+    Mobs:
+      - "SQUID"
+  19:
+    Exp: 90000
+    Money: 900000
+    Mobs:
+      - "BLAZE"
+  20:
+    Exp: 95000
+    Money: 950000
+    Mobs:
+      - "GHAST"
+  21:
+    Exp: 100000
+    Money: 1000000
+    Mobs:
+      - "SLIME"
+      - "MAGMA_CUBE"
+  22:
+    Exp: 175000
+    Money: 1750000
+    Mobs:
+      - "IRON_GOLEM"
+  23:
+    Exp: 200000
+    Money: 2000000
+    Mobs:
+      - "GUARDIAN"
+  24:
+    Exp: 250000
+    Money: 2500000
+    Mobs:
+      - "VILLAGER"
+  25:
+    Exp: 300000
+    Money: 3000000
+    Mobs:
+      - "SILVERFISH"
+ConfigVersion: 1.0
